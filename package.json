@@ -1,0 +1,27 @@
+{
+  "name": "zora-checker",
+  "version": "1.0.0",
+  "description": "Script for checking Zora wallets",
+  "main": "zora.js",
+  "scripts": {
+    "start": "node zora.js"
+  },
+  "keywords": [
+    "zora",
+    "ethereum",
+    "checker"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-progress": "^3.6.0",
+    "console-table-printer": "^4.1.5",
+    "csv-writer": "^1.7.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.0.0",
+    "moment": "^2.29.1",
+    "https-proxy-agent": "^5.2.0",
+    "socks-proxy-agent": "^5.0.2"
+  }
+}
